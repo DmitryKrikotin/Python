@@ -10,5 +10,5 @@ n=int(input("Введите число n "))
 m=int(input("Введите число m "))
 k=int(input("Введите количество долек "))
 a=True
-a=(k%n==0)or(k%m==0)
+a=((k%n==0)or(k%m==0))and(k<=m*n)
 print(a)
